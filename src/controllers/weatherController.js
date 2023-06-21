@@ -25,6 +25,25 @@ async function saveDataToDatabase(data) {
   });
 }
 
+/*
+  Instructions for students:
+  Implement the function to save weather alerts.
+
+  Function:
+    saveWeatherAlert(alertDetails)
+
+  Input:
+    - alertDetails (object): The details of the weather alert to be saved.
+
+
+  Tips:
+    - Use the provided functions getDataFromDatabase() and saveDataToDatabase() to read and write data from the 'data.json' file.
+    - Read the existing data from the 'data.json' file using getDataFromDatabase().
+    - Write the data to the 'data.json' file using saveDataToDatabase().    
+*/
+
+
+
 // Level 4: Post Weather Alerts
 async function saveWeatherAlert(alertDetails) {
    // TODO: Implement this function
